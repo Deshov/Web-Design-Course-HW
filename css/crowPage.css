@@ -1,0 +1,46 @@
+html,body{
+    min-height:100%
+  }
+  .underscore{
+    border-bottom: 3px solid orange;
+    /* font-style: italic; */
+  }
+  #last_p{
+    color: #dfc694;
+    border-top: 2px solid #dfc694;
+    font-weight: bold;
+    margin-top: 2px;
+    font-size: 12px;
+  }
+  #last_div{
+    border-top: 2px solid #dfc694;
+  }
+  #mainPage {
+    height: 100%;
+    background-color: black;
+    background-image: url("../images/crowPage/raven-1002849_1920.jpg");
+    background-size: cover;
+    border: 20px outset #B0893B;
+    font-size: 20px;;
+  }
+  #poem{
+    width: 600px;
+    font-family: sans-serif;
+    color: #F4C76C;
+  }
+  #poem>h1{
+    
+    color:#F4C76C;
+    text-align: center;
+  }
+  #poem>h3{
+    color: #322A1A;
+    font-style: italic;
+    font-variant:small-caps;
+    text-align: center;
+  }
+  #poem>p{
+    color:#E7FDFF;
+    text-indent: 60px;
+    font-weight: 900;
+  }
