@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OlimpicRings</title>
+    <style>
+        body{
+            background-image: url(../images/OlimpicRings/ocean-through-window-frame.jpg);
+            background-size: cover;
+            background-color: black;
+            height: 100vh;
+            margin: 0;
+        }
+        .ring {
+            /* make square box */
+            width: 6rem;
+            height: 6rem;
+            
+            /* vertically align the text inside */
+            line-height: 6rem;
+            vertical-align: middle;
+            /* horizontally align the text inside */
+            text-align: center;
+            
+            /* make circle */
+            border: 1rem solid blue;
+            border-radius: 100%;
+            
+            /* set opacity */
+            opacity: .4;
+            
+            font-size: 1em;
+            font-weight: bold;
+            }
+            .europe{
+                top: 8rem;
+                right:7rem;
+            }
+            .africa{
+                border-color: yellow;
+            }
+            .america{
+                border-color: rgb(5, 5, 73);
+                bottom: 8rem;
+                left: 7rem;
+            }
+            .asia{
+                border-color: green;
+                bottom:12rem;
+                right: 3.5rem;
+            }
+            .australlia{
+                border-color: red;
+                bottom:20rem;
+                left: 3.5rem;
+            }
+            .ring{
+                position: relative;
+                margin:0 auto;
+            }
+    </style>
+</head>
+<body>
+    <div class="ring europe" >Europe</div>
+    <div class="ring africa">Africa</div>
+    <div class="ring america">America</div>
+    <div class="ring asia">Asia</div>
+    <div class="ring australlia">Australlia</div>
+</body>
+</html>
