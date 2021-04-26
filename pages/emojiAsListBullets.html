@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmojiAsListBullets</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        h1{
+            text-align: center;
+        }
+        .todoList {
+            border: 5px outset  rgb(189, 182, 182);
+            
+        }
+        .todoList:hover {
+            box-shadow: .5px .5px 6px 1px rgb(109, 109, 109);
+        }
+        ul{
+           list-style-type: none; 
+           padding:1em;
+        }
+        li:hover, h1:hover{
+            text-shadow: .5px .5px 2px  black;
+        }
+
+        li:hover::after{
+            content: "\1F643";
+            margin-right: .5em;
+        }
+
+        .emoji{
+            margin-left: -.5em;
+        }
+
+        .emoji-smile::before{
+            content: '\1F603';
+            margin-right: .5em;
+        }
+
+        .emoji-sad::before{
+            content: '\1F625';
+            margin-right: .5em;
+        }
+
+        .emoji-loudly-crying::before{
+            content: '\1F62D';
+            margin-right: .5em;
+        }
+
+        #main_div{
+            width: 300px;
+            margin:0 auto;
+        }
+    </style>
+
+<body>
+    <div id="main_div">
+        <h1>My Todo List</h1>
+        <ul class="todoList">
+            <li class="emoji emoji-smile">Learn HTML </li>
+            <li class="emoji emoji-sad">Learn CSS</li>
+            <li class="emoji emoji-loudly-crying">Learn JavaScript</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
