@@ -18,11 +18,8 @@ let fruitName;
 let fruitPrice;
 
 for(let i=0;i<fruitsData[0].length;i++){
-    for(let j=0;j<fruitsData.length;j++){
-        
-        console.log(`${fruitsData[j][i]} = ???`);
-       
-    }
+    
+    console.log(`${fruitsData[0][i]} = ${fruitsData[1][i]}`);
         
 }
 
